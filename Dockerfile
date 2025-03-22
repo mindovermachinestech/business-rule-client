@@ -5,11 +5,11 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy requirements and install dependencies
-COPY requirements.txt requirements.txt
+COPY app/requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 # Copy the application code
-COPY business_rule_client.py .
+COPY app/business_rule_client.py .
 
 # Run the Python script
-CMD ["python", "business_rule_client.py"]
+CMD ["python", "app/business_rule_client.py"]
