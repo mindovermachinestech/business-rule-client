@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 COPY app/business_rule_client.py .
 
 # Run the Python script
-CMD ["python", "app/business_rule_client.py"]
+CMD ["python", "business_rule_client.py"]
