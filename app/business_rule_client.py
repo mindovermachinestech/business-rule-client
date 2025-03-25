@@ -22,7 +22,7 @@ logger.addHandler(console_handler)
 
 # API URL
 #API_URL = "https://business-rule-processor-git-mindovermachinestech-dev.apps.rm2.thpm.p1.openshiftapps.com/business-rule-processor/api/rules/execute"
-API_URL = "http://rule-engine-route-mindovermachinestech-dev.apps.rm2.thpm.p1.openshiftapps.com/business-rule-processor/api/rules/execute"
+API_URL = "https://business-rule-processor-0-mindovermachinestech-dev.apps.rm2.thpm.p1.openshiftapps.com/business-rule-processor/api/rules/execute"
 
 # List of available business rules
 RULES = ["CreditLimitRule", "FraudCheckRule", "EligibilityRule"]
